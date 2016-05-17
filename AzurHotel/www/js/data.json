@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "nom": "Hotel Fleur d’Epée",
+        "adresse": "Le Gosier",
+        "tel": "5624562123",
+        "description": "Situé à Bas-du-Fort en Guadeloupe, à 2 minutes à pied du fort Fleur d'épée, l'Hotel Fleur d’Epée rénové en 2014 possède des chambres avec balcon, une piscine extérieure d'eau douce de 215 m² et une...",
+        "image": "http://r-ec.bstatic.com/images/hotel/square200/367/36795578.jpg",
+        "prix": "135"
+    },
+    {
+        "id": "2",
+        "nom": "Canella Beach Hotel",
+        "adresse": "Le Gosier",
+        "tel": "5624562123",
+        "description": "Situé dans un cadre magnifique à Grand Baie, le Canella Beach Hotel propose un hébergement donnant sur la mer, le jardin ou la piscine extérieure.",
+        "image": "http://q-ec.bstatic.com/images/hotel/square200/564/56472029.jpg",
+        "prix": "157"
+    },
+    {
+        "id": "3",
+        "nom": "La Maison Calebasse ",
+        "adresse": "Saint-François",
+        "tel": "5624562123",
+        "description": "L'établissement La Maison Calebasse se trouve à Saint-François. Il est doté d'une piscine extérieure et de jardins tropicaux. Cet apart'hôtel possède une connexion Wi-Fi gratuite.d",
+        "image": "http://q-ec.bstatic.com/images/hotel/square200/448/44894774.jpg",
+        "prix": "155"
+    }
+]

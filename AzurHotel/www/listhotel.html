@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Azur Hotel App</title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+  </head>
+
+<body ng-app="starter" class="bg">
+  <div class="bar bar-header bar-royal">
+    <div class="h1 title">Liste des hôtels</div>
+  </div>
+
+  <br>
+  <br>
+  <ion-scroll direction="y">
+    <div class="content">
+      <div ng-controller="ListController" class="has-subheader">
+        <div class="list" can-swipe="true">
+          <a ng-repeat="item in hotels" href="infohotel.html?id={{ item.id }}" class="item item-thumbnail-left item-text-wrap">
+            <img src="{{ item.image }}" alt="Photo" />
+            <h2>{{ item.nom }}</h2>
+            <h3>{{ item.adresse }}</h3>
+            <i class="icon ion-android-star-outline vote"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </ion-scroll>
+
+    <div class="tabs tabs-icon-top tabs-color-royal">
+      <a class="tab-item" href="index.html">
+        <i class="icon ion-home icon-home"></i>
+        Accueil
+      </a>
+      <a class="tab-item active" href="listhotel.html">
+        <i class="icon ion-wineglass icon-hotel"></i>
+        Liste Hôtel
+      </a>
+      <a class="tab-item" href="annulerReservation.html">
+        <i class="icon ion-ios-close icon-res"></i>
+        Annuler réservation
+      </a>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Azur Hotel App</title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+  </head>
+
+  <body ng-app="starter" class="bg">
+    <div class="bar bar-header bar-royal">
+      <div class="h1 title">AZUR HOTEL</div>
+    </div>
+
+    <h2 class="title" id="titre">Menu</h2>
+
+    <div class="padding">
+      <a class="button button-full button-royal icon-left ion-home" href="index.html">Accueil</a>
+      <a class="button button-full button-royal icon-left ion-wineglass" href="listhotel.html">Liste H&#xF4;tel</a>
+      <a class="button button-full button-royal icon-left ion-ios-close" href="annulerReservation.html">Annuler r&#xE9;servation</a>
+    </div>
+
+    <div class="tabs tabs-icon-top tabs-color-royal">
+      <a class="tab-item active" href="index.html">
+        <i class="icon ion-home icon-home"></i>
+        Accueil
+      </a>
+      <a class="tab-item" href="listhotel.html">
+        <i class="icon ion-wineglass icon-hotel"></i>
+        Liste H&#xF4;tel
+      </a>
+      <a class="tab-item" href="annulerReservation.html">
+        <i class="icon ion-ios-close icon-res"></i>
+        Annuler r&#xE9;servation
+      </a>
+    </div>
+
+    <p style="margin-left: 15px; color: white;">
+      Bienvenue sur le site mobile d&apos;Azur H&#xF4;tel.<br>
+      Ici, vous pourrez:<br>
+       <span style="margin-left: 20px;">- Consulter les informations sur nos h&#xF4;tels.</span><br>
+       <span style="margin-left: 20px;">- Annuler vos r&#xE9;servations.</span>
+    </p>
+
+  </body>
+</html>
